@@ -1,0 +1,6 @@
+{
+  "pdpexpand": {
+    "component": "PDPExpand",
+    "composition": "children"
+  }
+}
