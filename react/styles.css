@@ -1,0 +1,43 @@
+.container {
+    margin-top: 1rem;
+    border-bottom: 1px solid black;
+}
+
+.wrapper {}
+
+.titleAndButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid black;
+    position: relative;
+    height: 2.5rem;
+}
+
+.title {
+    margin: 0;
+}
+
+.button {
+    background: transparent;
+    color: black;
+    padding: 0 0.5rem 0 0;
+    width: 100%;
+    border: none;
+    position: absolute;
+    height: 100%;
+    font-size: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.window {
+    overflow-y: hidden;
+    transition: height 750ms ease-in-out;
+}
+
+.info {
+    padding: 0.5rem;
+}
